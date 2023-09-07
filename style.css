@@ -1,0 +1,57 @@
+/* Defualt margin,padding set null */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Body sttyling give Fixed Height */
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* for hide scroll bar */
+  overflow: hidden;
+  background-color: #fff;
+}
+/* Both Rod Same Look */
+.rod {
+  position: absolute;
+  height: 20px;
+  width: 400px;
+  background-color: rgb(0, 0, 171);
+  border-radius: 10rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Rod 1 Position */
+.rod1 {
+  top: 0;
+}
+/* Rod 2 Position */
+.rod2 {
+  bottom: 0;
+}
+/* Ball Styling */
+.ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 76);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+/* Score */
+.score{
+  position: absolute;
+  font-size: 90px;
+  opacity: 0.4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
