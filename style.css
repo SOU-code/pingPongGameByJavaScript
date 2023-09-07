@@ -11,7 +11,9 @@ body {
   width: 100vw;
   /* for hide scroll bar */
   overflow: hidden;
-  background-color: #fff;
+  background: url("./bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* Both Rod Same Look */
 .rod {
